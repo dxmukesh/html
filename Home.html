@@ -1,0 +1,380 @@
+<html>
+  <head>
+    <title> YProduct.com</title>
+    <link href="css/jquery.bxslider.css" rel ="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css" >
+    <link href="font/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+ 
+    <!--for classic background-->
+    <style> 
+      body {
+        /* background-image: url("img_tree.gif"), url("paper.gif"); */
+        background-repeat: no-repeat, repeat;
+        background-color: black;
+      }
+      
+  
+
+
+
+
+
+
+      </style
+  </head>
+  <body>
+    <div id = "wrapper">
+      <div id = "header">
+        <div id = "subheader">
+          <div class = "container">
+            <p>काम करो पहचान बनाओ, विस्वास कराओ स्वदेश पर</p>
+           
+          </div>
+        </div>
+        <!--##main header##-->
+        <div id = "main-header">
+          <!--logo design-->
+          <div id ="logo">
+            <span id="ist">YProduct</span><span id="iist">.com</span>
+          </div>
+          <!--##Search engine##-->
+          <div id = "search">
+            <form action="">
+              <input class="search-area" type = "text" name ="text" placeholder="Search item here">
+             <!-- <input class="search-btn" type ="submit" name ="submit" value ="SEARCH">-->
+
+              <button type="submit" class="search-btn">
+        <i class="fa fa-search"></i>
+
+
+
+
+
+
+
+
+
+
+         
+     </button>
+
+            </form>
+          </div> 
+          
+          <!--user-menu-->
+          <div id = "user-menu">
+            <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>My Cart</a></li>
+            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>My Account</a></li>
+            
+          </div>
+        </div>
+      </div>
+      <!--##Toggle Menu bar##-->
+      <div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+  <a href="#"><i class="fa fa-address-book-o" aria-hidden="true"></i>About</a>
+  <a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>My Account</a>
+  <a href="#"><i class="fa fa-list-alt" aria-hidden="true"></i>My Order</a>
+  <a href="#"><i class="fa fa-commenting" aria-hidden="true"></i>Suggestion</a>
+  <a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>Contact</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">&#9776; </button>
+  
+  
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+
+
+
+
+
+
+
+      
+      <!--home slider-->
+      <div id = "slider">
+        <ul class="bxslider">
+        <li><img src="images/image3.jpg" height="300" width="1263"></li>
+        <li><img src="images/image.jpg" height="300" width="1263"></li>
+        </ul>
+      </div>
+      <!--category boxes-->
+      <div class = "container">
+        <div id ="heading-block">
+          <h2>Categories</h2>
+        </div>
+        <!--1st catbox-->
+        
+          <div class = "catbox">
+            <a href = "#">
+            <img src="images/cat1.jpg" height="220" width="220" alt="Men_fashion">
+            <span>Office Stationary</span>
+          </a>
+          </div>
+        <!--2st catbox-->
+          <div class = "catbox">
+            <a href = "#">
+            <img src="images/cat2.jpg" height="220" width="220" alt="Men_fashion">
+            <span>Artist Stationary</span>
+            </a>
+          </div>
+        <!--3st catbox-->
+          <div class = "catbox">
+            <a href = "#">
+            <img src="images/cat3.jpg" height="220" width="220" alt="Men_fashion">
+            <span>Electronics Stationary</span>
+            </a>
+          </div>
+        <!--4st catbox-->
+          <div class = "catbox">
+            <a href = "#">
+            <img src="images/cat4.jpg" height="220" width="220" alt="Men_fashion">
+            <span>Student Stationary</span>
+          </a>
+          </div>
+        <!--5st catbox-->
+          <div class = "catbox">
+            <a href = "#">
+            <img src="images/cat4.jpg" height="220" width="220" alt="Men_fashion">
+            <span>Paper Stationary</span>
+          </a>
+          </div>
+        <!--heading for products-->
+        <div id ="heading-block">
+          <h2>Products</h2>
+        </div>
+        <div class = "prod-container">
+          <!--first product added successfully-->
+          <div class = "prod-box">
+            <img src="images/pro3.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>White Shirt</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--second product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro1.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>Maths Book(R.D Sharma)</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--third product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro3.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>White Shirt</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--four product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro2.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>Register</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--five product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro3.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>White Shirt</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--six product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro4.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>Asus vivo book 14</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--seven product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro3.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>White Shirt</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--eight product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro5.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>MI 5(pro)</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--nine product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro3.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>White Shirt</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+           <!--ten product added successfully-->
+           <div class = "prod-box">
+            <img src="images/pro5.jpg" height="220" width="220" alt="man Shirt">
+            <div class = "prod-trans">
+              <div class ="prod-feature">
+                <p>Apple x pro</p>
+                <p style="color: #fff; font-weight: bold;">Price : $100</p>
+                <input type="button" value="Add to cart">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--##offer section##-->
+        <div class = "container">
+          <div id ="heading-block">
+            <h2>Hot Deals / Offer</h2>
+            </div>
+            <!--##offer boxes-->
+            <div class = "offer">
+              <a herf ="#">
+                <img src="images/offer1.jpg" heigth = "200" width="300">
+                </a>
+              </div>
+              <div class = "offer">
+              <a herf ="#">
+                <img src="images/offer2.jpg" heigth = "200" width="300">
+                </a>
+              </div>
+              <div class = "offer">
+              <a herf ="#">
+                <img src="images/offer3.jpg" heigth = "200" width="300">
+                </a>
+              </div>
+          </div>
+          
+      </div>
+      <!--## footer design##-->
+
+
+
+              <footer class="footer-distributed">
+     
+     <div class="footer-left">
+   <!--<img src="img/logo.png"> -->
+   <h3>काम करो पहचान बनाओ, विस्वास कराओ स्वदेश पर</h3>
+         <h3><span>About Swadeshi Mart</span></h3>
+         
+
+         <p class="footer-links">
+             <a href="#">Home</a>
+             |
+             <a href="#">Services</a>
+             |
+             <a href="#">About</a>
+             |
+             <a href="#">Contact</a>
+         </p>
+
+         <p class="footer-company-name">© 2020 YProduct.com Pvt. Ltd.</p>
+     </div>
+
+     <div class="footer-center">
+         <div>
+             <i class="fa fa-map-marker"></i>
+               <p><span>Near Krishna Engineering College, Hindon Air Force Station</span>
+                 Ghaziabad, Uttar Pradesh - 201206</p>
+         </div>
+
+         <div>
+             <i class="fa fa-phone"></i>
+             <p>+91 6397893883 ,</p>
+             <p>+91 8174856744</p>
+         </div>
+         <div>
+             <i class="fa fa-envelope"></i>
+             <p><a href="mailto:support@swadeshi_mart.com">thakurmukesh346@gmail.com</a></p>
+         </div>
+     </div>
+     <div class="footer-right">
+         <p class="footer-company-about">
+             <span>About the company</span>
+             This is our first startup in the direction of "Aatmanirbhar Bharat Abhiyan". We are going to give you hassle free services in your areas.We specially deals with only our Swadeshi Products.
+             We provide all the product of our targeted area in our targeted areas without any problem.Our first priority is to make our customer happy.</p>
+
+         <div class="footer-icons">
+             <a href="#"><i class="fa fa-facebook"></i></a>
+             <a href="#"><i class="fa fa-twitter"></i></a>
+             <a href="#"><i class="fa fa-instagram"></i></a>
+             <a href="#"><i class="fa fa-linkedin"></i></a>
+             <a href="#"><i class="fa fa-youtube"></i></a>
+         </div>
+     </div>
+ </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" 
+    integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" 
+    crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/My.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+/* /*
